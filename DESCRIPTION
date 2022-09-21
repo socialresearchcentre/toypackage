@@ -1,0 +1,21 @@
+Package: toypackage
+Title: Example Package
+Version: 0.1.0.9000
+Authors@R: 
+    c(person(given = "Social Research Centre",
+             role = "cph"),
+      person(given = "Jane",
+             family = "Doe",
+             email = "jane@gmail.com",
+             role = c("aut", "cre")),
+      person(given = "Jacob",
+             family = "Doe",
+             role = "ctb"))
+Description: An example package used as part of SRC package development training
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+  magrittr
