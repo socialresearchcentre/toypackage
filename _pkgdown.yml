@@ -1,0 +1,18 @@
+
+destination: docs
+title: My toy package
+
+development:
+  mode: auto
+
+
+reference:
+ - title: Arithmetic functions
+   desc: For mathematical operations
+   contents:
+   - 'add'
+
+- title: Utilities
+  desc: Everyday functions
+  contents:
+  - 'convert_NA_to_0'
