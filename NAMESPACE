@@ -2,3 +2,6 @@
 
 export(add)
 export(rowwise_max)
+export(rowwise_max_dplyr)
+import(dplyr)
+importFrom(magrittr,"%>%")

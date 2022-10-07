@@ -16,3 +16,4 @@ reference:
   desc: Everyday functions
   contents:
   - 'convert_NA_to_0'
+  - 'rowwsise_max'

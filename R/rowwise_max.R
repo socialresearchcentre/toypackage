@@ -1,4 +1,7 @@
 #' rowwise_max
+#'
+#' @param dat A dataframe
+#'
 #' @export
 
 rowwise_max <- function(dat){
@@ -12,8 +15,12 @@ rowwise_max <- function(dat){
 }
 
 #' rowwise_max_dplyr
+#'
+#' @param dat A dataframe
+#'
 #' @export
 #' @importFrom magrittr %>%
+#' @import dplyr
 
 rowwise_max_dplyr <- function(dat){
 

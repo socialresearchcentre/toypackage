@@ -6,6 +6,9 @@
 \usage{
 rowwise_max_dplyr(dat)
 }
+\arguments{
+\item{dat}{A dataframe}
+}
 \description{
 rowwise_max_dplyr
 }
